@@ -1,3 +1,6 @@
+/* To exceed the requirements, I've added a system that handles journal files.
+  The user can view previously saved files in a menu and load them, also I've added a new option to delete previously
+  saved files using a similar menu. */
 using System;
 
 class Program
