@@ -4,6 +4,19 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the YouTubeVideos Project.");
+        List<Video> videos = new VideoCreator(5).GetVideos();
+        foreach (Video video in videos)
+        {
+
+            video.DisplayInfo();
+            Console.WriteLine("---------------------------------------------------");
+
+        }
     }
+
+
+
+
+
 }
+
