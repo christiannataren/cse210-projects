@@ -87,7 +87,7 @@ class Activity
         int.TryParse(response, out seconds);
         _duration = seconds;
     }
-    public void print(String message)
+    protected void print(String message)
     {
         Console.WriteLine(message);
     }

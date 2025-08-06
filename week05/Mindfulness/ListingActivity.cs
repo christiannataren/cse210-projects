@@ -49,11 +49,11 @@ class ListingActivity : Activity
     }
 
 
-    public String GetRandomPrompt()
+    private String GetRandomPrompt()
     {
         return _prompts[new Random().Next(_prompts.Count)];
     }
-    public List<String> GetListFromUser()
+    private List<String> GetListFromUser()
     {
         return new List<string>();
     }
